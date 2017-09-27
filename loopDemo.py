@@ -7,10 +7,27 @@
 for i in range(0,5):
     print('I <3 computer science')"""
 
+"""
+i = 1
+while i<=5:
+    print('I <3 computer science')
+    i = i+1"""
+
+"""
+i = 1
+while i<=20:
+    print(i)
+    i = i+1"""
+
 """    
 #print the numbers from 1 to 20
 for i in range(1,21):
     print(i)"""
+
+i = 13
+while i<=27:
+    print(i)
+    i = i+2
     
 """
 #print out the odd numbers from 13 to 27
