@@ -5,5 +5,5 @@
 i=1
 while i<=10:
     for t in range(10,0,-1):
-        print(' '*t+'*'*i)
+        print(' '*t+'*'*i+'*'*i)
         i += 1
