@@ -21,9 +21,9 @@ while i>=num1:
 print(total)"""
 
 diff = int(input('Enter the difference between each term of the series: '))
-i = 0
+i = 1
 total = 0
 while i<=100:
     total = total+i
     i = i + diff
-    print(total)
+print(total)
