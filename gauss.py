@@ -4,5 +4,6 @@
 
 i=100
 while i>=0:
-    t=i-1
-    print(i+t)
+    total = total + i
+    i = i+1
+    print(total)
