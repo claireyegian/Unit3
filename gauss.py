@@ -5,5 +5,5 @@
 i=100
 while i>=0:
     total = total + i
-    i = i+1
-    print(total)
+    i = i-1
+print(total)
