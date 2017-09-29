@@ -5,14 +5,14 @@
 from random import randint
 rnum = randint(1,100)
 
-try = 0
+tries = 0
 while True:
     gnum = int(input('Guess a number between 1 and 100: '))
-    try = try + 1
+    tries = tries + 1
     if gnum<rnum:
         print('too low')
     elif gnum>rnum:
         print('too high')
     elif gnum==rnum:
         break
-print('You got it in', try, 'tries')
+print('You got it in', tries, 'tries')
