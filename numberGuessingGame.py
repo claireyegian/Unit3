@@ -12,4 +12,5 @@ while True:
     elif gnum>rnum:
         print('too high')
     elif gnum==rnum:
+        break
         print('You got in on the first try!')
