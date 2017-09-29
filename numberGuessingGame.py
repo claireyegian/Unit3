@@ -11,6 +11,6 @@ if gnum==rnum:
 elif:
     while gnum!=rnum:
         if gnum<rnum:
-            print(too low)
+            print('too low')
         elif gnum>rnum:
-            print(too high)
+            print('too high')
