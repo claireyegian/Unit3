@@ -2,9 +2,9 @@
 #9/29/17
 #warmUp7.py - product of numbers 1-20 using a loop
 
-total = 0
+total = 1
 i = 1
 while i<=20:
-    total += i
+    total *= i
     i += 1
 print(total)
