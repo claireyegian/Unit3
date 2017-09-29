@@ -10,7 +10,7 @@ while i<num:
         div = i
         total = total + div
     i = i + 1
-    if total == num:
-        print('Perfect')
-    elif total != num:
-        print('Not Perfect')
+if total == num:
+    print('Perfect')
+elif total != num:
+    print('Not Perfect')
