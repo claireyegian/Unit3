@@ -5,7 +5,7 @@
 from random import randint
 rnum = randint(1,100)
 
-while gnum!=rnum:
+while True:
     gnum = int(input('Guess a number between 1 and 100: '))
     if gnum<rnum:
         print('too low')
