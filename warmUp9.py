@@ -4,7 +4,7 @@
 
 word = input('Enter a word: ')
 for ch in word:
-    if ch=='a' or ch=='i' or ch=='o' or ch=='e' or ch=='u':
+    if ch in 'aeiouAEIOU':
         print(ch.upper())
     else:
         print(ch)
