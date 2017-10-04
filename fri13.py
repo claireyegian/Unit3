@@ -2,7 +2,7 @@
 #10/3/17
 #fri13.py - finds next 10 friday the 13ths
 
-from calander import weekday
+from calendar import weekday
 from datetime import date
 
 day2 = int(date.today().day)
