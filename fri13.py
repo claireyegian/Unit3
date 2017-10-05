@@ -14,9 +14,8 @@ while fri13<=10:
     weekda = weekday(year2,month2,day2)
     if day2==13 and weekda==4:
         print(weekda)
+    if month2!=12:
+        month2 += 1
     else:
-        if month2!=12:
-            month2 += 1
-        else:
-            month2 = 0
-            year2 = year2 + 1
+        month2 = 0
+        year2 = year2 + 1
