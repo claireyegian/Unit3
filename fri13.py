@@ -11,11 +11,11 @@ year2 = int(date.today().year)
 
 fri13 = 0
 while fri13<=10:
-    weekda = weekday(year2,month2,day2)
-    if day2==13 and weekda==4:
-        print(weekda)
+    weekda = weekday(year2,month2,13)
+    if weekda==4:
+        print(month2,'/13/', year2)
     if month2!=12:
         month2 += 1
     else:
-        month2 = 0
+        month2 = 1
         year2 = year2 + 1
