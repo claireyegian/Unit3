@@ -9,6 +9,13 @@ day2 = int(date.today().day)
 month2 = int(date.today().month)
 year2 = int(date.today().year)
 
+if day2>13:
+    if month2!=12:
+        month2 += 1
+    else:
+        month2 = 1
+        year2 = year2 + 1
+
 fri13 = 0
 while fri13<=10:
     weekda = weekday(year2,month2,13)
