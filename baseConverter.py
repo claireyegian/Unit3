@@ -5,7 +5,7 @@
 base10 = int(input('Enter a base-10 number: '))
 base = int(input('What base whould you like to convert to? '))
 
-i = 1
+i = 0
 while base10<=(base**i):
     digits = i
     i = i + 1
