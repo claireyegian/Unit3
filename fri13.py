@@ -5,9 +5,9 @@
 from calendar import weekday
 from datetime import date
 
-day2 = int(date.today().day)
-month2 = int(date.today().month)
-year2 = int(date.today().year)
+day2 = date.today().day
+month2 = date.today().month
+year2 = date.today().year
 
 if day2>13:
     if month2!=12:
