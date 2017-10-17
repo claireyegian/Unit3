@@ -18,5 +18,5 @@ print(total)
 while True:
     word = input('Enter a word: ')
     for ch in word:
-        if ch in 'z':
+        if ch in 'zZ':
             break
